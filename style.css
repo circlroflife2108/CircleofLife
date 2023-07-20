@@ -179,7 +179,7 @@ body {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 60%; /* Adjust to your desired maximum width */
+  max-width: 80%; /* Adjust to your desired maximum width */
   margin: 0 auto;
 }
 
@@ -278,7 +278,7 @@ h3 {
 .box-container1 {
   display: flex;
   margin: auto;
-  max-width: 40%;
+  max-width: fit-content;
   flex-wrap: wrap;
   justify-content: center;
   padding-left: 20%;
