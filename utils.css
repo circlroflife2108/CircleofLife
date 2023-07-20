@@ -1,0 +1,8 @@
+:root {
+    --gradient-background: linear-gradient(to right, #FFDE59, #FFD26E #FFC88C);
+  }
+  
+  body {
+    background: var(--gradient-background);
+  }
+  
