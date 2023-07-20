@@ -312,7 +312,7 @@ h3 {
   flex-basis: calc(50% - 30px);
   border-radius: 20px;
   height: 100px;
-  width: 50px;
+  width: fit-content;
   padding: 5px;
   background: rgb(255,200,140);
   background: radial-gradient(circle, rgba(255,200,140,1) 0%, rgba(255,222,89,1) 35%, rgba(219,189,55,1) 100%);
