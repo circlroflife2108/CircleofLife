@@ -183,6 +183,12 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 600px) {
+  .video-container {
+    flex-basis: calc(100% - -50%);
+  }
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
@@ -329,7 +335,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
   .box {
-    flex-basis: calc(100% - 80px);
+    flex-basis: calc(100% - 90px);
   }
 }
 
