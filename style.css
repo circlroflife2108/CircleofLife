@@ -183,9 +183,9 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .video-container {
-    flex-basis: calc(100% - -50%);
+    flex-basis: calc(100%-20%);
   }
 }
 
@@ -964,9 +964,28 @@ font-weight:600;
   width: fit-content;
 }
 
-#BonusMasterTitleContainer {
-}
 
+#FormTitle {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  color: #FFDE59;
+  font-weight:600;
+  
+  }
+
+  #FormTitleBackground {
+    height:fit-content;
+    background-color: #0346AB;
+    padding-bottom: 20px;
+  }
+    
+  #googleFormContainer {
+
+    margin: auto;
+
+    }
 
 
 
