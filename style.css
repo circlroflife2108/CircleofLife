@@ -982,10 +982,11 @@ font-weight:600;
   }
     
   #googleFormContainer {
-
+    width: 100%;
+    height: 800px;
     margin: auto;
+  }
 
-    }
 
 
 
